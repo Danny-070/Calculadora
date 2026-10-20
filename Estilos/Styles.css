@@ -1,9 +1,10 @@
+/*Estilos Generales*/
 body {
     background-color: #A5D6CE;
     margin: 200px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/*Estilos del titulo*/
 #title {
     background-color: black;
     color: white;
@@ -13,17 +14,21 @@ body {
     display: inline-block;
 }
 
-
+/*Estilos de las secciones y contenedores*/
 div {
     margin-bottom: 15px;
     text-align: center;
 }
+
+/*Estilos de las etiquetas de texto*/
 
 label {
     display: block; 
     font-weight: bold;
     margin-bottom: 5px;
 }
+
+/*Estilos de las casillas de entrada y el botón*/
 
 input, button {
     padding: 5px;
@@ -32,6 +37,8 @@ input, button {
     font-size: 20px;
 }
 
+/*Estilo solo para el botón*/
+
 button {
     background-color: #000;
     color: #fff;
@@ -39,10 +46,14 @@ button {
     font-weight: bold;
 }
 
+/*Efecto visual al pasar el mouse*/
+
 button:hover {
     background-color: #fdfdfd;
     color: #000;
 }
+
+/*Estilos de la caja de resultado*/
 
 #resultado {
     display: block;
